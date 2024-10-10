@@ -1013,11 +1013,11 @@ Array [
                                   unselectable="on"
                                   value=""
                                 />
-                              </span>
-                              <span
-                                class="ant-select-selection-placeholder"
-                              >
-                                Please select an owner
+                                <span
+                                  class="ant-select-selection-placeholder"
+                                >
+                                  Please select an owner
+                                </span>
                               </span>
                             </div>
                             <div
@@ -1190,11 +1190,11 @@ Array [
                                   unselectable="on"
                                   value=""
                                 />
-                              </span>
-                              <span
-                                class="ant-select-selection-placeholder"
-                              >
-                                Please choose the type
+                                <span
+                                  class="ant-select-selection-placeholder"
+                                >
+                                  Please choose the type
+                                </span>
                               </span>
                             </div>
                             <div
@@ -1372,11 +1372,11 @@ Array [
                                   unselectable="on"
                                   value=""
                                 />
-                              </span>
-                              <span
-                                class="ant-select-selection-placeholder"
-                              >
-                                Please choose the approver
+                                <span
+                                  class="ant-select-selection-placeholder"
+                                >
+                                  Please choose the approver
+                                </span>
                               </span>
                             </div>
                             <div

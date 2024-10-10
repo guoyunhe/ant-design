@@ -28,10 +28,10 @@ exports[`ConfigProvider.Popup disable virtual if dropdownMatchSelectWidth is fal
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <span
       aria-hidden="true"
@@ -205,10 +205,10 @@ exports[`ConfigProvider.Popup disable virtual if is false 1`] = `
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <span
       aria-hidden="true"
@@ -382,10 +382,10 @@ exports[`ConfigProvider.Popup disable virtual if popupMatchSelectWidth is false 
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <span
       aria-hidden="true"

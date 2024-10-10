@@ -6,7 +6,13 @@ import { mergeToken } from '../../theme/internal';
 import type { SelectToken } from './token';
 
 function genSizeStyle(token: SelectToken, suffix?: string): CSSObject {
-  const { componentCls, inputPaddingHorizontalBase, borderRadius, fontSizeIcon } = token;
+  const {
+    componentCls,
+    inputPaddingHorizontalBase,
+    borderRadius,
+    fontSizeIcon,
+    selectAffixPadding,
+  } = token;
 
   const selectHeightWithoutBorder = token
     .calc(token.controlHeight)
@@ -30,16 +36,19 @@ function genSizeStyle(token: SelectToken, suffix?: string): CSSObject {
         ...resetComponent(token, true),
 
         display: 'flex',
+        height: '100%',
         borderRadius,
 
         [`${componentCls}-selection-search`]: {
-          position: 'absolute',
-          top: 0,
-          insetInlineStart: inputPaddingHorizontalBase,
-          insetInlineEnd: unit(singleInputPaddingHorizontal),
-          bottom: 0,
+          position: 'relative',
+          display: 'block',
+          alignSelf: 'center',
 
           '&-input': {
+            position: 'absolute',
+            insetBlock: 0,
+            insetInlineStart: 0,
+            insetInlineEnd: unit(singleInputPaddingHorizontal),
             width: '100%',
             WebkitAppearance: 'textfield',
           },
@@ -47,7 +56,8 @@ function genSizeStyle(token: SelectToken, suffix?: string): CSSObject {
 
         [`
           ${componentCls}-selection-item,
-          ${componentCls}-selection-placeholder
+          ${componentCls}-selection-placeholder,
+          ${componentCls}-prefix
         `]: {
           padding: 0,
           lineHeight: unit(selectHeightWithoutBorder),
@@ -58,6 +68,10 @@ function genSizeStyle(token: SelectToken, suffix?: string): CSSObject {
         [`${componentCls}-selection-placeholder`]: {
           transition: 'none',
           pointerEvents: 'none',
+        },
+
+        [`${componentCls}-prefix`]: {
+          marginInlineEnd: selectAffixPadding,
         },
 
         // For common baseline align

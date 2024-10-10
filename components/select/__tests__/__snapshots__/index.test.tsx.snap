@@ -26,10 +26,10 @@ exports[`Select Deprecated should ignore mode="combobox" 1`] = `
         unselectable="on"
         value=""
       />
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
   <span
     aria-hidden="true"
@@ -86,10 +86,10 @@ exports[`Select Select Custom Icons should support customized icons 1`] = `
         unselectable="on"
         value=""
       />
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
   <span
     aria-hidden="true"
@@ -146,10 +146,10 @@ exports[`Select rtl render component should be rendered correctly in RTL directi
         unselectable="on"
         value=""
       />
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
   <span
     aria-hidden="true"

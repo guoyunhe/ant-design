@@ -313,10 +313,10 @@ exports[`Form form should support disabled 1`] = `
                     unselectable="on"
                     value=""
                   />
+                  <span
+                    class="ant-select-selection-placeholder"
+                  />
                 </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                />
               </div>
               <span
                 aria-hidden="true"

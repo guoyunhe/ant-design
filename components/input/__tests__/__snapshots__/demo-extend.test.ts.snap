@@ -3362,10 +3362,10 @@ Array [
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <div
       class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -5267,11 +5267,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        input here
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          input here
+        </span>
       </span>
     </div>
     <div
@@ -9812,11 +9812,11 @@ exports[`renders components/input/demo/group.tsx extend context correctly 1`] = 
             type="search"
             value=""
           />
-        </span>
-        <span
-          class="ant-select-selection-placeholder"
-        >
-          Email
+          <span
+            class="ant-select-selection-placeholder"
+          >
+            Email
+          </span>
         </span>
       </div>
       <div

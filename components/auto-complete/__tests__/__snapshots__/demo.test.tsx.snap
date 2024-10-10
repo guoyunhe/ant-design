@@ -24,11 +24,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        UnClearable
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          UnClearable
+        </span>
       </span>
     </div>
   </div>,
@@ -56,11 +56,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        Customized clear icon
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          Customized clear icon
+        </span>
       </span>
     </div>
   </div>,
@@ -91,11 +91,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        input here
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          input here
+        </span>
       </span>
     </div>
   </div>,
@@ -123,11 +123,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        control mode
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          control mode
+        </span>
       </span>
     </div>
   </div>,
@@ -198,10 +198,10 @@ exports[`renders components/auto-complete/demo/certain-category.tsx correctly 1`
           </span>
         </span>
       </span>
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -230,10 +230,10 @@ exports[`renders components/auto-complete/demo/custom.tsx correctly 1`] = `
         style="height:50px"
         type="search"
       />
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -289,10 +289,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx correctly 1`] = `
                     type="search"
                     value=""
                   />
+                  <span
+                    class="ant-select-selection-placeholder"
+                  />
                 </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                />
               </div>
             </div>
           </div>
@@ -492,10 +492,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx correctly 1`] = `
                       type="search"
                       value=""
                     />
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
               </div>
             </span>
@@ -577,10 +577,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx correctly 1`] = `
                       </span>
                     </span>
                   </span>
+                  <span
+                    class="ant-select-selection-placeholder"
+                  />
                 </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                />
               </div>
             </div>
           </div>
@@ -721,10 +721,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx correctly 1`] = `
                         </span>
                       </span>
                     </span>
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
               </div>
             </span>
@@ -879,10 +879,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx correctly 1`] = `
                         </span>
                       </span>
                     </span>
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
               </div>
             </span>
@@ -1037,10 +1037,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx correctly 1`] = `
                         </span>
                       </span>
                     </span>
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
               </div>
               <button
@@ -1106,11 +1106,11 @@ exports[`renders components/auto-complete/demo/non-case-sensitive.tsx correctly 
         type="search"
         value=""
       />
-    </span>
-    <span
-      class="ant-select-selection-placeholder"
-    >
-      try to type \`b\`
+      <span
+        class="ant-select-selection-placeholder"
+      >
+        try to type \`b\`
+      </span>
     </span>
   </div>
 </div>
@@ -1139,11 +1139,11 @@ exports[`renders components/auto-complete/demo/options.tsx correctly 1`] = `
         type="search"
         value=""
       />
-    </span>
-    <span
-      class="ant-select-selection-placeholder"
-    >
-      input here
+      <span
+        class="ant-select-selection-placeholder"
+      >
+        input here
+      </span>
     </span>
   </div>
 </div>
@@ -1244,10 +1244,10 @@ exports[`renders components/auto-complete/demo/status.tsx correctly 1`] = `
             type="search"
             value=""
           />
+          <span
+            class="ant-select-selection-placeholder"
+          />
         </span>
-        <span
-          class="ant-select-selection-placeholder"
-        />
       </div>
     </div>
   </div>
@@ -1276,10 +1276,10 @@ exports[`renders components/auto-complete/demo/status.tsx correctly 1`] = `
             type="search"
             value=""
           />
+          <span
+            class="ant-select-selection-placeholder"
+          />
         </span>
-        <span
-          class="ant-select-selection-placeholder"
-        />
       </div>
     </div>
   </div>
@@ -1350,10 +1350,10 @@ exports[`renders components/auto-complete/demo/uncertain-category.tsx correctly 
           </span>
         </span>
       </span>
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -1385,11 +1385,11 @@ exports[`renders components/auto-complete/demo/variant.tsx correctly 1`] = `
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        Outlined
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          Outlined
+        </span>
       </span>
     </div>
   </div>
@@ -1415,11 +1415,11 @@ exports[`renders components/auto-complete/demo/variant.tsx correctly 1`] = `
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        Filled
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          Filled
+        </span>
       </span>
     </div>
   </div>
@@ -1445,11 +1445,11 @@ exports[`renders components/auto-complete/demo/variant.tsx correctly 1`] = `
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        Borderless
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          Borderless
+        </span>
       </span>
     </div>
   </div>

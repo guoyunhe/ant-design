@@ -813,10 +813,10 @@ Array [
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <span
       aria-hidden="true"
@@ -1174,11 +1174,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        input here
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          input here
+        </span>
       </span>
     </div>
   </div>,
@@ -3411,11 +3411,11 @@ exports[`renders components/input/demo/group.tsx correctly 1`] = `
             type="search"
             value=""
           />
-        </span>
-        <span
-          class="ant-select-selection-placeholder"
-        >
-          Email
+          <span
+            class="ant-select-selection-placeholder"
+          >
+            Email
+          </span>
         </span>
       </div>
     </div>

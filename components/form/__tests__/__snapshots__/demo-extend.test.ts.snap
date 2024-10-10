@@ -1740,11 +1740,11 @@ exports[`renders components/form/demo/control-hooks.tsx extend context correctly
                     unselectable="on"
                     value=""
                   />
-                </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                >
-                  Select a option and change input text above
+                  <span
+                    class="ant-select-selection-placeholder"
+                  >
+                    Select a option and change input text above
+                  </span>
                 </span>
               </div>
               <div
@@ -2569,10 +2569,10 @@ Array [
                       unselectable="on"
                       value=""
                     />
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
                 <div
                   class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -10694,10 +10694,10 @@ exports[`renders components/form/demo/register.tsx extend context correctly 1`] 
                           unselectable="on"
                           value=""
                         />
+                        <span
+                          class="ant-select-selection-placeholder"
+                        />
                       </span>
-                      <span
-                        class="ant-select-selection-placeholder"
-                      />
                     </div>
                     <div
                       class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -10864,11 +10864,11 @@ exports[`renders components/form/demo/register.tsx extend context correctly 1`] 
                     type="search"
                     value=""
                   />
-                </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                >
-                  website
+                  <span
+                    class="ant-select-selection-placeholder"
+                  >
+                    website
+                  </span>
                 </span>
               </div>
               <div
@@ -10993,11 +10993,11 @@ exports[`renders components/form/demo/register.tsx extend context correctly 1`] 
                     unselectable="on"
                     value=""
                   />
-                </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                >
-                  select your gender
+                  <span
+                    class="ant-select-selection-placeholder"
+                  >
+                    select your gender
+                  </span>
                 </span>
               </div>
               <div
@@ -11773,10 +11773,10 @@ exports[`renders components/form/demo/size.tsx extend context correctly 1`] = `
                     unselectable="on"
                     value=""
                   />
+                  <span
+                    class="ant-select-selection-placeholder"
+                  />
                 </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                />
               </div>
               <div
                 class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -21507,11 +21507,11 @@ exports[`renders components/form/demo/validate-other.tsx extend context correctl
                     unselectable="on"
                     value=""
                   />
-                </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                >
-                  Please select a country
+                  <span
+                    class="ant-select-selection-placeholder"
+                  >
+                    Please select a country
+                  </span>
                 </span>
               </div>
               <div
@@ -22005,6 +22005,7 @@ exports[`renders components/form/demo/validate-other.tsx extend context correctl
           >
             <div
               class="ant-slider ant-slider-horizontal ant-slider-with-marks"
+              id="validate_other_slider"
             >
               <div
                 class="ant-slider-rail"
@@ -23584,10 +23585,10 @@ exports[`renders components/form/demo/validate-scroll-to-field.tsx extend contex
                     unselectable="on"
                     value=""
                   />
+                  <span
+                    class="ant-select-selection-placeholder"
+                  />
                 </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                />
               </div>
               <div
                 class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -27860,11 +27861,11 @@ exports[`renders components/form/demo/validate-static.tsx extend context correct
                     unselectable="on"
                     value=""
                   />
-                </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                >
-                  I'm Select
+                  <span
+                    class="ant-select-selection-placeholder"
+                  >
+                    I'm Select
+                  </span>
                 </span>
               </div>
               <div
@@ -31095,10 +31096,10 @@ exports[`renders components/form/demo/variant.tsx extend context correctly 1`] =
                     unselectable="on"
                     value=""
                   />
+                  <span
+                    class="ant-select-selection-placeholder"
+                  />
                 </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                />
               </div>
               <div
                 class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"

@@ -727,10 +727,10 @@ exports[`renders components/tooltip/demo/disabled-children.tsx correctly 1`] = `
             unselectable="on"
             value=""
           />
+          <span
+            class="ant-select-selection-placeholder"
+          />
         </span>
-        <span
-          class="ant-select-selection-placeholder"
-        />
       </div>
       <span
         aria-hidden="true"

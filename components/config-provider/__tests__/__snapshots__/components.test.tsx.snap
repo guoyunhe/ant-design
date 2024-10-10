@@ -373,10 +373,10 @@ exports[`ConfigProvider components AutoComplete configProvider 1`] = `
         type="search"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -405,10 +405,10 @@ exports[`ConfigProvider components AutoComplete configProvider componentDisabled
         type="search"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -436,10 +436,10 @@ exports[`ConfigProvider components AutoComplete configProvider componentSize lar
         type="search"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -467,10 +467,10 @@ exports[`ConfigProvider components AutoComplete configProvider componentSize mid
         type="search"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -498,10 +498,10 @@ exports[`ConfigProvider components AutoComplete configProvider componentSize sma
         type="search"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -529,10 +529,10 @@ exports[`ConfigProvider components AutoComplete normal 1`] = `
         type="search"
         value=""
       />
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -560,10 +560,10 @@ exports[`ConfigProvider components AutoComplete prefixCls 1`] = `
         type="search"
         value=""
       />
+      <span
+        class="prefix-AutoComplete-selection-placeholder"
+      />
     </span>
-    <span
-      class="prefix-AutoComplete-selection-placeholder"
-    />
   </div>
 </div>
 `;
@@ -24457,10 +24457,10 @@ exports[`ConfigProvider components Select configProvider 1`] = `
         unselectable="on"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
   <div
     class="config-select-dropdown config-slide-up-appear config-slide-up-appear-prepare config-slide-up config-select-dropdown-placement-bottomLeft"
@@ -24584,10 +24584,10 @@ exports[`ConfigProvider components Select configProvider componentDisabled 1`] =
         unselectable="on"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
   <span
     aria-hidden="true"
@@ -24645,10 +24645,10 @@ exports[`ConfigProvider components Select configProvider componentSize large 1`]
         unselectable="on"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
   <div
     class="config-select-dropdown config-slide-up-appear config-slide-up-appear-prepare config-slide-up config-select-dropdown-placement-bottomLeft"
@@ -24772,10 +24772,10 @@ exports[`ConfigProvider components Select configProvider componentSize middle 1`
         unselectable="on"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
   <div
     class="config-select-dropdown config-slide-up-appear config-slide-up-appear-prepare config-slide-up config-select-dropdown-placement-bottomLeft"
@@ -24899,10 +24899,10 @@ exports[`ConfigProvider components Select configProvider componentSize small 1`]
         unselectable="on"
         value=""
       />
+      <span
+        class="config-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="config-select-selection-placeholder"
-    />
   </div>
   <div
     class="config-select-dropdown config-slide-up-appear config-slide-up-appear-prepare config-slide-up config-select-dropdown-placement-bottomLeft"
@@ -25026,10 +25026,10 @@ exports[`ConfigProvider components Select normal 1`] = `
         unselectable="on"
         value=""
       />
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
   <div
     class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -25153,10 +25153,10 @@ exports[`ConfigProvider components Select prefixCls 1`] = `
         unselectable="on"
         value=""
       />
+      <span
+        class="prefix-Select-selection-placeholder"
+      />
     </span>
-    <span
-      class="prefix-Select-selection-placeholder"
-    />
   </div>
   <div
     class="prefix-Select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up prefix-Select-dropdown-placement-bottomLeft"

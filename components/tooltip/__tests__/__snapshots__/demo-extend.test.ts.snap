@@ -1570,10 +1570,10 @@ exports[`renders components/tooltip/demo/disabled-children.tsx extend context co
             unselectable="on"
             value=""
           />
+          <span
+            class="ant-select-selection-placeholder"
+          />
         </span>
-        <span
-          class="ant-select-selection-placeholder"
-        />
       </div>
       <div
         class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"

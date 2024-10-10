@@ -3483,10 +3483,10 @@ exports[`renders components/tabs/demo/nest.tsx extend context correctly 1`] = `
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <div
       class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -3649,10 +3649,10 @@ exports[`renders components/tabs/demo/nest.tsx extend context correctly 1`] = `
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <div
       class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -3815,10 +3815,10 @@ exports[`renders components/tabs/demo/nest.tsx extend context correctly 1`] = `
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <div
       class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"
@@ -3970,10 +3970,10 @@ exports[`renders components/tabs/demo/nest.tsx extend context correctly 1`] = `
           unselectable="on"
           value=""
         />
+        <span
+          class="ant-select-selection-placeholder"
+        />
       </span>
-      <span
-        class="ant-select-selection-placeholder"
-      />
     </div>
     <div
       class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-placement-bottomLeft"

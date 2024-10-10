@@ -147,10 +147,10 @@ Array [
               unselectable="on"
               value=""
             />
+            <span
+              class="ant-select-selection-placeholder"
+            />
           </span>
-          <span
-            class="ant-select-selection-placeholder"
-          />
         </div>
         <span
           aria-hidden="true"

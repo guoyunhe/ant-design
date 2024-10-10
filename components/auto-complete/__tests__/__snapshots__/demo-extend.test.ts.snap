@@ -25,11 +25,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        UnClearable
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          UnClearable
+        </span>
       </span>
     </div>
     <div
@@ -70,11 +70,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        Customized clear icon
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          Customized clear icon
+        </span>
       </span>
     </div>
     <div
@@ -120,11 +120,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        input here
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          input here
+        </span>
       </span>
     </div>
     <div
@@ -165,11 +165,11 @@ Array [
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        control mode
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          control mode
+        </span>
       </span>
     </div>
     <div
@@ -255,10 +255,10 @@ exports[`renders components/auto-complete/demo/certain-category.tsx extend conte
           </span>
         </span>
       </span>
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
   <div
     class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up certain-category-search-dropdown ant-select-dropdown-placement-bottomLeft"
@@ -587,10 +587,10 @@ exports[`renders components/auto-complete/demo/custom.tsx extend context correct
         style="height: 50px;"
         type="search"
       />
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
   <div
     class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -661,10 +661,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                     type="search"
                     value=""
                   />
+                  <span
+                    class="ant-select-selection-placeholder"
+                  />
                 </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                />
               </div>
               <div
                 class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -999,10 +999,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                       type="search"
                       value=""
                     />
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
                 <div
                   class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -1097,10 +1097,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                       </span>
                     </span>
                   </span>
+                  <span
+                    class="ant-select-selection-placeholder"
+                  />
                 </span>
-                <span
-                  class="ant-select-selection-placeholder"
-                />
               </div>
               <div
                 class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -1315,10 +1315,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                         </span>
                       </span>
                     </span>
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
                 <div
                   class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -1547,10 +1547,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                         </span>
                       </span>
                     </span>
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
                 <div
                   class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -1779,10 +1779,10 @@ exports[`renders components/auto-complete/demo/form-debug.tsx extend context cor
                         </span>
                       </span>
                     </span>
+                    <span
+                      class="ant-select-selection-placeholder"
+                    />
                   </span>
-                  <span
-                    class="ant-select-selection-placeholder"
-                  />
                 </div>
                 <div
                   class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -1867,11 +1867,11 @@ exports[`renders components/auto-complete/demo/non-case-sensitive.tsx extend con
         type="search"
         value=""
       />
-    </span>
-    <span
-      class="ant-select-selection-placeholder"
-    >
-      try to type \`b\`
+      <span
+        class="ant-select-selection-placeholder"
+      >
+        try to type \`b\`
+      </span>
     </span>
   </div>
   <div
@@ -1991,11 +1991,11 @@ exports[`renders components/auto-complete/demo/options.tsx extend context correc
         type="search"
         value=""
       />
-    </span>
-    <span
-      class="ant-select-selection-placeholder"
-    >
-      input here
+      <span
+        class="ant-select-selection-placeholder"
+      >
+        input here
+      </span>
     </span>
   </div>
   <div
@@ -2228,10 +2228,10 @@ exports[`renders components/auto-complete/demo/status.tsx extend context correct
             type="search"
             value=""
           />
+          <span
+            class="ant-select-selection-placeholder"
+          />
         </span>
-        <span
-          class="ant-select-selection-placeholder"
-        />
       </div>
       <div
         class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -2273,10 +2273,10 @@ exports[`renders components/auto-complete/demo/status.tsx extend context correct
             type="search"
             value=""
           />
+          <span
+            class="ant-select-selection-placeholder"
+          />
         </span>
-        <span
-          class="ant-select-selection-placeholder"
-        />
       </div>
       <div
         class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -2362,10 +2362,10 @@ exports[`renders components/auto-complete/demo/uncertain-category.tsx extend con
           </span>
         </span>
       </span>
+      <span
+        class="ant-select-selection-placeholder"
+      />
     </span>
-    <span
-      class="ant-select-selection-placeholder"
-    />
   </div>
   <div
     class="ant-select-dropdown ant-slide-up-appear ant-slide-up-appear-prepare ant-slide-up ant-select-dropdown-empty ant-select-dropdown-placement-bottomLeft"
@@ -2416,11 +2416,11 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        Outlined
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          Outlined
+        </span>
       </span>
     </div>
     <div
@@ -2459,11 +2459,11 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        Filled
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          Filled
+        </span>
       </span>
     </div>
     <div
@@ -2502,11 +2502,11 @@ exports[`renders components/auto-complete/demo/variant.tsx extend context correc
           type="search"
           value=""
         />
-      </span>
-      <span
-        class="ant-select-selection-placeholder"
-      >
-        Borderless
+        <span
+          class="ant-select-selection-placeholder"
+        >
+          Borderless
+        </span>
       </span>
     </div>
     <div
