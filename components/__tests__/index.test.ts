@@ -1,13 +1,14 @@
 const OLD_NODE_ENV = process.env.NODE_ENV;
 process.env.NODE_ENV = 'development';
 
+import { vi } from 'vitest';
+
 describe('antd', () => {
   let antd: typeof import('..');
 
-  beforeAll(() => {
-    jest.isolateModules(() => {
-      antd = jest.requireActual('..');
-    });
+  beforeAll(async () => {
+    vi.resetModules();
+    antd = await import('..');
   });
 
   afterAll(() => {

@@ -3,6 +3,15 @@ import React from 'react';
 import type { DOMWindow } from 'jsdom';
 import { MessagePort } from 'node:worker_threads';
 import { ReadableStream } from 'node:stream/web';
+import { vi } from 'vitest';
+
+if (typeof (globalThis as any).jest === 'undefined') {
+  Object.defineProperty(globalThis, 'jest', {
+    value: vi,
+    writable: true,
+    configurable: true,
+  });
+}
 
 if (typeof globalThis.ReadableStream === 'undefined') {
   Object.defineProperty(
@@ -63,10 +72,10 @@ export function fillWindowEnv(window: Window | DOMWindow) {
     Object.defineProperty(win, 'matchMedia', {
       writable: true,
       configurable: true,
-      value: jest.fn((query) => ({
+      value: vi.fn((query) => ({
         matches: query.includes('max-width'),
-        addEventListener: jest.fn(),
-        removeEventListener: jest.fn(),
+        addEventListener: vi.fn(),
+        removeEventListener: vi.fn(),
       })),
     });
   }
@@ -150,8 +159,8 @@ if (typeof MessageChannel === 'undefined') {
 }
 
 // Mock useId to return a stable id for snapshot testing
-jest.mock('react', () => {
-  const originReact = jest.requireActual('react');
+vi.mock('react', async (importOriginal) => {
+  const originReact = await importOriginal<typeof import('react')>();
   let cloneReact = {
     ...originReact,
   };
