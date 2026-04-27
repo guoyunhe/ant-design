@@ -5,3 +5,13 @@ exports[`App > rtl render > component should be rendered correctly in RTL direct
   class="ant-app css-var-root ant-app-rtl"
 />
 `;
+
+exports[`App > single 1`] = `
+<div
+  class="ant-app css-var-root"
+>
+  <div>
+    Hello World
+  </div>
+</div>
+`;
